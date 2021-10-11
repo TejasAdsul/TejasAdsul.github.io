@@ -226,12 +226,10 @@
           </tr> -->
 
           <tr>
-            <td width="100%" valign="top">
+            <td width="25%" valign="top">
               <img width = "100%" id="mit_indoor" src='files/mit_indoor.PNG'>
             </td>
-          </tr>
-          <tr>
-            <td width="100%" valign="center">
+            <td width="75%" valign="center">
               <strong>(1) MIT Indoor Scenes Classification:</strong><br>  
               <em>I built a Deep Learning Classifier for images of indoor scenes within an MIT dataset provided <a href="http://web.mit.edu/torralba/www/indoor.html">here</a>. The dataset consists of 67 classes and a total of 15620 images, with at least 100 images in each class. I used the <a href="https://albumentations.ai/">albumentations </a> library for image augmentation to improve robustness. I used the ResNet50 Convolutional Neural Network with a modified FC-layer for the classifier. I also utilized cross entropy loss minimization and a learning rate scheduler for optimizing the training process. I also improved the speed by using GPU-acceleration. I was able to achieve an accuracy of 65%.
               </em>
@@ -245,8 +243,6 @@
             <td width="25%" valign="top"> 
               <img width = "100%" id="pneumonia" src='files/pneumonia.png'>
             </td>
-          </tr>
-          <tr>
             <td width="75%" valign="center" >
               <strong>(2) Pneumonia Detection using Deep Learning:</strong><br>  
               <em>I designed a Deep Learning model for classifying lung x-rays as normal, containing viral infection or containing bacterial infection. The dataset (available <a href="https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia">here</a>) consists of 5863 chest x-rays. The <a href="https://albumentations.ai/">albumentations </a> library was also used for image augmentation of the x-ray images. ResNet18 Convolutional Neural Network was used for the classification process. I achieved an accuracy of 72.4%. 

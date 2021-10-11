@@ -226,12 +226,14 @@
           </tr> -->
 
           <tr>
-            <td width="25%" valign="top">
+            <td width="100%" valign="top">
               <img width = "100%" id="mit_indoor" src='files/mit_indoor.PNG'>
             </td>
-            <td width="75%" valign="center">
+          </tr>
+          <tr>
+            <td width="100%" valign="center">
               <strong>(1) MIT Indoor Scenes Classification:</strong><br>  
-              <em>I built a classifier for images of indoor scenes within an MIT dataset provided <a href="http://web.mit.edu/torralba/www/indoor.html">[here]</a>. The dataset consists of 67 classes and a total of 15620 images, with at least 100 images in each class. I used the <a href="https://albumentations.ai/">[albumentations] </a> library 
+              <em>I built a Deep Learning Classifier for images of indoor scenes within an MIT dataset provided <a href="http://web.mit.edu/torralba/www/indoor.html">here</a>. The dataset consists of 67 classes and a total of 15620 images, with at least 100 images in each class. I used the <a href="https://albumentations.ai/">albumentations </a> library for image augmentation to improve robustness. I used the ResNet50 Convolutional Neural Network with a modified FC-layer for the classifier. I also utilized cross entropy loss minimization and a learning rate scheduler
               </em>
               <br>              
               <a href="https://github.com/akhilesh-somani/Data-Analytics-for-Safety-in-Autonomous-Vehicles">[Github Code]</a>
